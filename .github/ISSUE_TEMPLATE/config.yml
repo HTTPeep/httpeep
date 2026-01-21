@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: 📖 Documentation
+    url: https://httpeep.com/docs
+    about: Check the official documentation for usage help
+  - name: 💬 Discussions
+    url: https://github.com/user/httpeep/discussions
+    about: Join community discussions

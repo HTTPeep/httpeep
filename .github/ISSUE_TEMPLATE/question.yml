@@ -1,0 +1,65 @@
+name: ❓ Question
+description: Ask a question about HTTPeep usage
+title: "[Question]: "
+labels: ["question"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Have a question? We're happy to help! Please check the documentation first. If you can't find an answer, describe your question in detail below.
+
+  - type: checkboxes
+    id: checklist
+    attributes:
+      label: Pre-submission Checklist
+      description: Please confirm you have completed the following
+      options:
+        - label: I have read the project documentation
+          required: false
+        - label: I have searched existing Issues and found no duplicate
+          required: true
+
+  - type: textarea
+    id: question
+    attributes:
+      label: Question
+      description: A clear and concise description of your question
+      placeholder: I would like to know how to...
+    validations:
+      required: true
+
+  - type: textarea
+    id: context
+    attributes:
+      label: Context
+      description: Describe what you are trying to do and the context of your question
+      placeholder: I'm trying to...
+    validations:
+      required: false
+
+  - type: textarea
+    id: tried
+    attributes:
+      label: What I've Tried
+      description: Describe any solutions you have already attempted
+      placeholder: I've already tried...
+
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: Screenshots or Screen Recording
+      description: If helpful, add screenshots to explain your question
+      placeholder: Drag and drop images here...
+
+  - type: input
+    id: version
+    attributes:
+      label: HTTPeep Version
+      description: The version of HTTPeep you are using (if applicable)
+      placeholder: e.g., 1.0.0
+
+  - type: textarea
+    id: additional
+    attributes:
+      label: Additional Information
+      description: Add any other information that might help answer your question
