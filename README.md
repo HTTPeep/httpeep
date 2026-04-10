@@ -27,7 +27,7 @@
 
 HTTPeep is a fast, reliable, and developer-friendly HTTP/HTTPS debugging proxy built from the ground up with Rust. It captures, inspects, and modifies network traffic with a clean, professional interface. Whether you are debugging complex APIs, setting up mock servers, or rewriting requests on the fly, HTTPeep provides a powerful, composable toolset to handle your web traffic effortlessly.
 
-> **Note**: This repository is for **bug reports** and **feature requests** only. The source code is not publicly available. For product information, visit [httpeep.com](https://httpeep.com).
+> **Note**: This repository is for **bug reports** and **feature requests** only. For product information, visit [httpeep.com](https://httpeep.com).
 
 ## 🚀 Download
 
@@ -90,11 +90,11 @@ HTTPeep features a Built-in MCP Server designed for AI agents. It works flawless
 
 We'd love to hear from you! Here's how to reach us:
 
-- **Bug Reports** — [Open an issue](https://github.com/HTTPeep/httpeep-support/issues/new?template=bug_report.md)
-- **Feature Requests** — [Open an issue](https://github.com/HTTPeep/httpeep-support/issues/new?template=feature_request.md)
-- **Community** — [Join our Discord](https://discord.gg/httpeep)
+- **Bug Reports** — [Open an issue](https://github.com/HTTPeep/httpeep/issues/new?template=bug_report.md)
+- **Feature Requests** — [Open an issue](https://github.com/HTTPeep/httpeep/issues/new?template=feature_request.md)
+- **Community** — [Join our Discord](https://discord.gg/hWS5X2Hyqj)
 - **Email** — support@httpeep.com
-- **Updates** — Follow [@nichenqin](https://x.com/nichenqin) on X
+- **Updates** — Follow [@nichenqin](https://x.com/@HTTPeep001) on X
 
 ## ❓ FAQ
 
