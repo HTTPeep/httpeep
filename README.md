@@ -20,7 +20,7 @@
 ---
 
 <p align="center">
-  <img src="./screenshot/banner.png" alt="HTTPeep Main Interface" width="800">
+  <img src="./screenshots/banner.png" alt="HTTPeep Main Interface" width="800">
 </p>
 
 ## About HTTPeep
@@ -43,29 +43,29 @@ HTTPeep is a fast, reliable, and developer-friendly HTTP/HTTPS debugging proxy b
 HTTPeep seamlessly captures HTTP/1.1, HTTP/2, and HTTPS (MITM) traffic. It automatically groups requests by TCP connection, visualizes HTTP timing, and provides multi-dimensional filtering to easily locate the requests you care about.
 
 <p align="center">
-  <img src="./screenshot/home.png" alt="Traffic Capture" width="800">
+  <img src="./screenshots/home.png" alt="Traffic Capture" width="800">
 </p>
 
 ### 🛠️ Advanced Rule Engine Arch
 The true power of HTTPeep lies in its composable rule engine. Match traffic by domain, path, headers, or method, and build an action pipeline to Map Local, Forward, Delay, or Reject. Create robust rules, combine multiple actions, and export them to share with your team.
 
 <p align="center">
-  <img src="./screenshot/arch.png" alt="Rule Engine" width="800">
+  <img src="./screenshots/arch.png" alt="Rule Engine" width="800">
 </p>
 
 ### 📡 Built-in HTTP Client
 Need to test an endpoint directly? Use the integrated HTTP client to manually construct requests, test APIs on the fly, and even import your cURL or Fetch commands instantly.
 
 <p align="center">
-  <img src="./screenshot/http-client.png" alt="HTTP Client" width="800">
+  <img src="./screenshots/http-client.png" alt="HTTP Client" width="800">
 </p>
 
 ### 🌗 Beautiful Native Themes
 We care about aesthetics as much as performance. Choose between meticulously crafted light and dark themes that fit perfectly into your OS environment.
 
 <p align="center">
-  <img src="./screenshot/theme-dark.png" alt="Dark Theme" width="400">
-  <img src="./screenshot/theme-light.png" alt="Light Theme" width="400">
+  <img src="./screenshots/theme-dark.png" alt="Dark Theme" width="400">
+  <img src="./screenshots/theme-light.png" alt="Light Theme" width="400">
 </p>
 
 ### 🤖 AI-Native Integration
