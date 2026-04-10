@@ -1,138 +1,127 @@
 <p align="center">
-  <img src="./screenshots/banner.png" alt="HTTPeep Banner" width="100%" height="auto"/>
+  <img src="https://httpeep.com/logo.svg" alt="HTTPeep Logo" width="120" height="120">
+</p>
+
+<h1 align="center">The Next-Gen HTTP/HTTPS Debugger & Programmable Proxy for Modern Developers.</h1>
+
+<p align="center">
+  <strong>The Composable HTTP Debugger Stack rules to mock, intercept, and rewrite traffic — combine any actions, reuse anywhere.</strong>
 </p>
 
 <p align="center">
-  <a href="https://twitter.com/httpeep_app">
-    <img alt="Follow HTTPeep on Twitter" src="https://img.shields.io/badge/Follow-%40httpeep__app-black.svg?style=for-the-badge&logo=Twitter">
-  </a>
-  <a href="https://github.com/user/httpeep/releases">
-    <img alt="GitHub release" src="https://img.shields.io/github/v/release/user/httpeep?style=for-the-badge">
-  </a>
-  <a href="https://github.com/user/httpeep/blob/main/LICENSE">
-    <img alt="License" src="https://img.shields.io/badge/license-MIT-blue.svg?style=for-the-badge">
-  </a>
-</p>
-
-<p align="center">
-  <b>🔍 Next-Generation HTTP/HTTPS Proxy Debugging Tool with Powerful Customization</b>
+  <a href="https://httpeep.com"><img src="https://img.shields.io/badge/Website-httpeep.com-0078D4?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Website"></a>
+  <a href="https://github.com/HTTPeep/httpeep/releases"><img src="https://img.shields.io/github/v/release/HTTPeep/httpeep?style=for-the-badge&logo=github&color=2ea44f" alt="Version"></a>
+  <img src="https://img.shields.io/badge/Platform-macOS%20%7C%20Windows%20%7C%20Linux-lightgrey?style=for-the-badge&logo=apple&logoColor=black" alt="Platform">
+  <a href="https://github.com/HTTPeep/httpeep/releases"><img src="https://img.shields.io/github/downloads/HTTPeep/httpeep/total?style=for-the-badge&logo=github&color=0078D4" alt="Downloads"></a>
+  <a href="https://x.com/HTTPeep001"><img src="https://img.shields.io/badge/Follow-@HTTPeep001-000000?style=for-the-badge&logo=x&logoColor=white" alt="Follow on X"></a>
+  <a href="https://discord.gg/hWS5X2Hyqj"><img src="https://img.shields.io/badge/Discord-Join%20Community-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord"></a>
 </p>
 
 ---
 
-<!-- TODO: Replace with main dashboard screenshot -->
 <p align="center">
-  <img src="./screenshots/dashboard.png" alt="HTTPeep Dashboard" width="100%" height="auto"/>
+  <img src="./screenshot/banner.png" alt="HTTPeep Main Interface" width="800">
 </p>
 
-## ✨ Features
+## About HTTPeep
 
-HTTPeep is a next-generation network debugging tool built on **Rust** and **Tauri 2**. It offers a flexible rule matching engine, orchestratable action pipelines, and fine-grained DNS resolution control, giving you complete control over every network request.
+HTTPeep is a fast, reliable, and developer-friendly HTTP/HTTPS debugging proxy built from the ground up with Rust. It captures, inspects, and modifies network traffic with a clean, professional interface. Whether you are debugging complex APIs, setting up mock servers, or rewriting requests on the fly, HTTPeep provides a powerful, composable toolset to handle your web traffic effortlessly.
 
-### 🚀 Why HTTPeep?
+> **Note**: This repository is for **bug reports** and **feature requests** only. The source code is not publicly available. For product information, visit [httpeep.com](https://httpeep.com).
 
-- 🦀 **Rust Core** — Exceptional performance and memory safety with low memory footprint
-- 🎨 **Modern UI** — Built with React + TypeScript for a smooth, responsive experience
-- 🔒 **Type Safe** — Full-stack type safety powered by `tauri-specta`
-- 🏠 **Local-First** — Focuses on data privacy and security. Your data stays on your machine
+## 🚀 Download
 
-### 🎯 Core Capabilities
+| Platform | Download | Requirements |
+|----------|----------|--------------|
+| **macOS** | [Download for macOS](https://httpeep.com/download) | macOS 10.15+ |
+| **Windows** | [Download for Windows](https://httpeep.com/download) | Windows 10+ |
+| **Linux** | [Download for Linux](https://httpeep.com/download) | glibc 2.31+ |
 
-| Feature | Description |
-|---------|-------------|
-| **Intelligent Rule-based Proxy** | Multi-dimensional matching (Domain, Path, Header, Method) with wildcards and regex support |
-| **DNS Resolution Control** | Custom DNS servers, resolution overrides, and DNS over HTTPS (DoH) support |
-| **Action Pipeline Orchestration** | Chain actions like Reject, Delay, Map Local, Forward, and Modify Header |
-| **HTTPS Decryption** | Full traffic decryption with auto root CA generation and one-click system trust |
-| **High Performance** | Low memory usage, high concurrency without impacting normal browsing |
+## ✨ Core Features
 
-<!-- TODO: Replace with features showcase screenshot -->
-<p align="center">
-  <img src="./screenshots/features.png" alt="HTTPeep Features" width="100%" height="auto"/>
-</p>
-
-## 📷 Screenshots
+### 🔍 Traffic Capture & Inspection
+HTTPeep seamlessly captures HTTP/1.1, HTTP/2, and HTTPS (MITM) traffic. It automatically groups requests by TCP connection, visualizes HTTP timing, and provides multi-dimensional filtering to easily locate the requests you care about.
 
 <p align="center">
-  <table>
-    <tr>
-      <td align="center">
-        <!-- TODO: Main interface screenshot -->
-        <img src="./screenshots/main.png" alt="Main Interface" width="400"/><br/>
-        <b>Main Interface</b>
-      </td>
-      <td align="center">
-        <!-- TODO: Request detail screenshot -->
-        <img src="./screenshots/request-detail.png" alt="Request Detail" width="400"/><br/>
-        <b>Request Detail</b>
-      </td>
-    </tr>
-    <tr>
-      <td align="center">
-        <!-- TODO: Rules configuration screenshot -->
-        <img src="./screenshots/rules.png" alt="Rules" width="400"/><br/>
-        <b>Rule Configuration</b>
-      </td>
-      <td align="center">
-        <!-- TODO: Map Local screenshot -->
-        <img src="./screenshots/map-local.png" alt="Map Local" width="400"/><br/>
-        <b>Map Local</b>
-      </td>
-    </tr>
-  </table>
+  <img src="./screenshot/home.png" alt="Traffic Capture" width="800">
 </p>
 
-## 🚀 Quick Start
+### 🛠️ Advanced Rule Engine Arch
+The true power of HTTPeep lies in its composable rule engine. Match traffic by domain, path, headers, or method, and build an action pipeline to Map Local, Forward, Delay, or Reject. Create robust rules, combine multiple actions, and export them to share with your team.
 
-1. **Download & Install** — One-click installation for macOS, Windows, or Linux
-2. **Trust Certificate** — Install the generated root certificate into system trust store
-3. **Start Debugging** — Launch the proxy and begin capturing traffic
+<p align="center">
+  <img src="./screenshot/arch.png" alt="Rule Engine" width="800">
+</p>
 
-## 📥 Download
+### 📡 Built-in HTTP Client
+Need to test an endpoint directly? Use the integrated HTTP client to manually construct requests, test APIs on the fly, and even import your cURL or Fetch commands instantly.
 
-### All Platforms
+<p align="center">
+  <img src="./screenshot/http-client.png" alt="HTTP Client" width="800">
+</p>
 
-Download the latest version:
+### 🌗 Beautiful Native Themes
+We care about aesthetics as much as performance. Choose between meticulously crafted light and dark themes that fit perfectly into your OS environment.
 
-- 📦 [HTTPeep Latest](https://httpeep.com/download) — Official Download
-- 📋 [Release Notes](https://github.com/httpeep/httpeep/releases) — View Changelog
+<p align="center">
+  <img src="./screenshot/theme-dark.png" alt="Dark Theme" width="400">
+  <img src="./screenshot/theme-light.png" alt="Light Theme" width="400">
+</p>
 
-### macOS
+### 🤖 AI-Native Integration
+HTTPeep features a Built-in MCP Server designed for AI agents. It works flawlessly with tools like Claude, Cursor, GitHub Copilot, and includes a CLI for scripted operations and CI/CD integration.
 
-```bash
-brew install --cask httpeep
-```
+### And More...
+- **Breakpoint Debugging** — Set breakpoints to modify headers, body, and status code on the fly.
+- **Certificate Management** — Built-in CA for fast, frictionless HTTPS interception.
+- **Custom DNS** — Override DNS resolution on a per-domain basis.
+- **Export Capabilities** — Save your sessions in JSON, HAR, or PCAP formats.
 
-### System Requirements
+## 🛠️ How It Works
 
-- **macOS** 12.0 (Monterey) or later — Intel & Apple Silicon
-- **Windows** 10/11 — x64 & ARM64
-- **Linux** — x64 (AppImage, deb, rpm)
+| Step | Action | Description |
+|------|--------|-------------|
+| 1 | **Install & Trust Certificate** | Install HTTPeep and trust the built-in root CA certificate |
+| 2 | **Capture Traffic** | Start the proxy to capture HTTP/HTTPS traffic from your apps |
+| 3 | **Configure Rules** | Set up matching rules, breakpoints, and forwarding |
+| 4 | **Debug & Modify** | Inspect requests/responses, modify on the fly, and solve issues |
 
-## 🤝 Have a Problem?
+## 💬 Feedback & Support
 
-We're here to help!
+We'd love to hear from you! Here's how to reach us:
 
-- 🐛 **Bug Report** — [Submit an Issue](https://github.com/user/httpeep/issues/new?template=bug_report.yml)
-- ✨ **Feature Request** — [Request a Feature](https://github.com/user/httpeep/issues/new?template=feature_request.yml)
-- ❓ **Question** — [Ask a Question](https://github.com/user/httpeep/issues/new?template=question.yml)
-- 💬 **Community** — [GitHub Discussions](https://github.com/user/httpeep/discussions)
-- 📧 **Email Support** — imchrisorz@gmail.com
+- **Bug Reports** — [Open an issue](https://github.com/HTTPeep/httpeep-support/issues/new?template=bug_report.md)
+- **Feature Requests** — [Open an issue](https://github.com/HTTPeep/httpeep-support/issues/new?template=feature_request.md)
+- **Community** — [Join our Discord](https://discord.gg/httpeep)
+- **Email** — support@httpeep.com
+- **Updates** — Follow [@nichenqin](https://x.com/nichenqin) on X
 
-## 🔗 Links
+## ❓ FAQ
 
-- 🌐 [Official Website](https://httpeep.com)
-- 📖 [Documentation](https://httpeep.com/docs)
-- 🐦 [Twitter](https://twitter.com/httpeep_app)
+<details>
+<summary><strong>Is HTTPeep free?</strong></summary>
+
+HTTPeep offers a free tier with core features. See [pricing](https://httpeep.com/pricing) for details on premium plans.
+</details>
+
+<details>
+<summary><strong>Which platforms are supported?</strong></summary>
+
+macOS 10.15+, Windows 10+, and Linux (glibc 2.31+).
+</details>
+
+<details>
+<summary><strong>Where is my data stored?</strong></summary>
+
+All data is stored locally on your machine at `~/.httpeep/`. Nothing is sent to external servers.
+</details>
 
 ---
 
 <p align="center">
-  <b>HTTPeep</b> is crafted with ❤️ by a team passionate about developer tools.<br/>
-  Built with Rust 🦀 for performance. Designed for developers who demand control.<br/><br/>
-  If HTTPeep helps you, please consider giving us a ⭐️!
+  <a href="https://httpeep.com">httpeep.com</a>
 </p>
 
 <p align="center">
-  Made with ❤️ by HTTPeep Team
+  Made with ❤️ by the HTTPeep Team
 </p>
