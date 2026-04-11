@@ -23,6 +23,10 @@
   <img src="./screenshots/banner.png" alt="HTTPeep Main Interface" width="800">
 </p>
 
+<p align="center">
+  <img src="https://s1.httpeep.com/video/demo.mp4" alt="HTTPeep Main Interface" width="800">
+</p>
+
 ## About HTTPeep
 
 HTTPeep is a fast, reliable, and developer-friendly HTTP/HTTPS debugging proxy built from the ground up with Rust. It captures, inspects, and modifies network traffic with a clean, professional interface. Whether you are debugging complex APIs, setting up mock servers, or rewriting requests on the fly, HTTPeep provides a powerful, composable toolset to handle your web traffic effortlessly.
