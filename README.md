@@ -24,8 +24,11 @@
 </p>
 
 <p align="center">
-  <img src="https://s1.httpeep.com/video/demo.mp4" alt="HTTPeep Main Interface" width="800">
+  <video controls width="250">
+  <source src="https://s1.httpeep.com/video/demo.mp4" type="video/mp4" />
+  </video>
 </p>
+
 
 ## About HTTPeep
 
