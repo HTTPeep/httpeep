@@ -101,7 +101,7 @@ We'd love to hear from you! Here's how to reach us:
 - **Feature Requests** — [Open an issue](https://github.com/HTTPeep/httpeep/issues/new?template=feature_request.md)
 - **Community** — [Join our Discord](https://discord.gg/hWS5X2Hyqj)
 - **Email** — support@httpeep.com
-- **Updates** — Follow [@nichenqin](https://x.com/@HTTPeep001) on X
+- **Updates** — Follow [@HTTTPeep001](https://x.com/@HTTPeep001) on X
 
 ## ❓ FAQ
 
